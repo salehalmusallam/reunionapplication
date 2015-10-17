@@ -1,4 +1,5 @@
 <?php
+
     header('Content-Type: text/xml');
     $codeWithSpaces = implode(', ',str_split($_GET["code"]));
     echo '<?xml version="1.0" encoding="UTF-8"?>
